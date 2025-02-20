@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Outfit", serif;
+  background-color: black;
+  cursor: grab;
+  scroll-behavior: smooth;
+}
+.header-01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7%;
+  color: #fff;
+}
+
+.header-01 .navbar {
+  display: flex;
+}
+.header-01 .navbar li {
+  list-style: none;
+  text-decoration: none;
+  padding-right: 21px;
+}
+
+.header-01 .navbar li a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.1s ease;
+}
+.header-01 .navbar li a:hover {
+  color: #00bf72;
+  box-shadow: 1px 2px 1px #00bf72;
+}
+
+.Approch_sec {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Approch_sec button {
+  color: #fff;
+  width: 64%;
+  margin-right: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 47px;
+  background: no-repeat;
+  border: 1px solid #5b5454;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.Approch_sec button:hover {
+  background: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border: none;
+}
+#button img {
+  width: 21%;
+}
+
+
+
+@media (max-width: 815px) {
+  
+}
